@@ -2,7 +2,7 @@
      padding: 0px;
      margin: 0px;
 }
-body {
+#App {
      background-color: #F3F4F6;
 }
 
@@ -43,15 +43,14 @@ form.example button:hover {
   background: #f1f1f1;
   color: #F3594F;
 }
+
+.servicePage .service-Card{
+     background-color: #ffff;
+}
 .servicePage .service-Card:hover {
      background-color: #F3594F;
      color: white;
      cursor: pointer;
-}
-
-.wave-container {
-  position: relative;
-  overflow: hidden;
 }
 
 @keyframes animateWave {
@@ -66,6 +65,10 @@ form.example button:hover {
   display: block;
   transform-origin: bottom;
   animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.bg-custom {
+     color: #F3594F;
 }
 
 @media only screen and (max-width: 900px) {

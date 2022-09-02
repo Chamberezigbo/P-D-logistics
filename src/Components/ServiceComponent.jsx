@@ -68,7 +68,7 @@ function ServiceComponent() {
 							<Card.Text className="text-capitalize">
 								<h4>Goods and Item Tracking</h4>
 								<p>
-									track your goods as see and the exert
+									Track your Goods and see their exact
 									location
 								</p>
 							</Card.Text>

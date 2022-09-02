@@ -1,17 +1,20 @@
 //?> This section is for about //
 
-import { Col, Container, Row } from "react-bootstrap";
-
+import { Col, Container, Row, Image } from "react-bootstrap";
+import gifVideo from "../res/WhatsApp_Video_2022-08-25_at_10_47_33_AdobeExpress.gif";
 export default function AboutComponent() {
 	return (
-		<div className="wave-container mt-5">
+		<div className="wave-container mt-5 pt-5">
 			<Container>
 				<Row>
-					<Col className="text-capitalize">
-						<h5>
+					<Col sm={12} lg={6} className="text-capitalize fw-bolder">
+						<h2>
 							watch small click about our business and how we
 							operate
-						</h5>
+						</h2>
+					</Col>
+					<Col sm={12} lg={6}>
+						<Image src={gifVideo} rounded thumbnail width={500} />
 					</Col>
 				</Row>
 			</Container>
